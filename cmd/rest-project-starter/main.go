@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/typical-go/rest-project-starter/internal/app"
-	_ "github.com/typical-go/rest-project-starter/internal/generated"
+	_ "github.com/typical-go/rest-project-starter/internal/generated/typical"
 	"github.com/typical-go/typical-go/pkg/typapp"
 )
 
