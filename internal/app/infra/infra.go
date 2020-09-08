@@ -7,8 +7,8 @@ import (
 type (
 	// Infra infrastructure for the project
 	Infra struct {
-		dig.Out
-		// TODO: add infra
+		// TODO: uncomment `dig.Out` and add infra
+		// dig.Out
 	}
 	setupParam struct {
 		dig.In

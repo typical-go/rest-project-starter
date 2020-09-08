@@ -16,11 +16,15 @@ Annotation Help:
 | Field Name | Default | Required | 
 |---|---|:---:|
 | APP_ADDRESS | :8089 | Yes |
+| APP_READ_TIMEOUT | 5s |  |
+| APP_WRITE_TIMEOUT | 10s |  |
 | APP_DEBUG | true |  |
 
 ## DotEnv example
 ```
 APP_ADDRESS=:8089
+APP_READ_TIMEOUT=5s
+APP_WRITE_TIMEOUT=10s
 APP_DEBUG=true
 ```
 
