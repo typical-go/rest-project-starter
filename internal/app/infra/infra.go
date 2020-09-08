@@ -22,9 +22,10 @@ type (
 
 // Setup infra
 // @ctor
-func Setup(p setupParam) (infras Infra, err error) {
+func Setup(p setupParam) Infra {
 	// TODO: add setup function e.g. create connection, etc
-	return Infra{}, nil
+	// Use `logrus.Fatal` to handling error since infra component is mandatory
+	return Infra{}
 }
 
 // Teardown infra
